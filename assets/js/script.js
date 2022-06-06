@@ -23,6 +23,7 @@ var generatePassword = function(){
   //Resetting the password and must use list so it is blank for every password generation
   clientPassword="";
   mustUse="";
+  characterSet=""
 
   //ending function if user hits cancel in first window and leaving a message in the window for user to read
   if(userChoiceLength==null){
