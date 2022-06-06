@@ -16,7 +16,7 @@ var clientPassword="";
 
 
 var generatePassword = function(){
-  var userChoiceLength = window.prompt("Please input how long you would like your password to be? Please note that a password must be a length between 8-128 characters");
+  var userChoiceLength = window.prompt("Please input how long you would like your password to be? Please note that a password must be a length between 8-128 characters", "Enter number");
 
 
 
